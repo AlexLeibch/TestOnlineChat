@@ -1,0 +1,21 @@
+.app__inputs {
+    display: flex;
+    width: 500px;
+}
+
+.app__inputs > :nth-child(1n) {
+    margin-right: 12px;
+}
+h1 {
+    margin: 6px 0 0 0;
+}
+
+iframe {
+    /* get the fuck up iframe */
+    display: none;
+}
+
+#root {
+    background-color: rgba(174, 183, 194, 0.16);
+height: 100vgh;
+}

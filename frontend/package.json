@@ -1,0 +1,63 @@
+{
+	"name": "frontend",
+	"version": "0.1.0",
+	"private": true,
+	"proxy": "http://localhost:5010",
+	"dependencies": {
+		"@popperjs/core": "^2.11.4",
+		"es5-ext": "0.10.53",
+		"freeice": "^2.2.2",
+		"react": "^17.0.1",
+		"react-copy-to-clipboard": "^5.0.3",
+		"react-dom": "^17.0.1",
+		"react-popper": "^2.2.5",
+		"react-router": "6.2.2",
+		"react-router-dom": "6.2.2",
+		"react-scripts": "4.0.3",
+		"simple-peer": "9.9.3",
+		"socket.io-client": "^3.1.1",
+		"styled-components": "^5.3.3",
+		"vienna-ui": "^2.3.7"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"lint": "eslint ./workspaces --quiet --ext .js,.jsx,.ts,.tsx --config ./.eslintrc.js",
+		"typecheck": "tsc -p tsconfig.json --noEmit",
+		"prettier": "npx prettier --write '**/*.{js,jsx,ts,tsx,md,mdx,yaml,yml}'"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"@types/react": "17.0.40",
+		"@types/react-dom": "17.0.13",
+		"@types/socket.io": "3.0.2",
+		"@types/socket.io-client": "^3.0.0",
+		"@typescript-eslint/parser": "5.15.0",
+		"eslint-config-airbnb": "19.0.4",
+		"eslint-config-prettier": "8.5.0",
+		"eslint-plugin-prettier": "4.0.0",
+		"eslint-plugin-typescript": "0.14.0",
+		"prettier": "2.6.0",
+		"ts-loader": "9.2.8",
+		"typescript": "4.6.2"
+	}
+}
